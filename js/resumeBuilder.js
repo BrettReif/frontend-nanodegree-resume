@@ -10,7 +10,7 @@ This is empty on purpose! Your code to build the resume will go here.
  	"phone" : "206-788-5705"
   };
  var picture = [];
- var skills = ["HTML", "CSS", "SQL", "JavaScript"]
+ var skills = ["HTML", "CSS", "SQL", "JavaScript"];
 
  var bio = {
 	"name" : name,
