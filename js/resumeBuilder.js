@@ -25,5 +25,5 @@ This is empty on purpose! Your code to build the resume will go here.
  $("#header").prepend(formattedName);
  $("#header").append(bio.name);
  $("#header").append(bio.role);
- $("#header").append(bio.contact_info);
+ $("#header").append(bio.contact_info.email);
  $("#header").append(bio.welcome_message);
