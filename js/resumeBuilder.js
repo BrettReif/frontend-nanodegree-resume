@@ -10,15 +10,20 @@ This is empty on purpose! Your code to build the resume will go here.
  	"phone" : "206-788-5705"
   };
  var picture = [];
+ var skills = ["HTML", "CSS", "SQL", "JavaScript"]
 
  var bio = {
 	"name" : name,
 	"role" : role,
 	"contact info" : contact,
 	"picture URL" : picture,
-	"welcome message" : "Here's a bit about me."
+	"welcome message" : "Here's a bit about me.",
+	"skills" : skills
 };
   
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
- $("#header").append(bio);
+ $("#header").append(bio.name);
+ $("#header").append(bio.role);
+ $("#header").append(bio.contact info);
+ $("#header").append(bio.welcome_message);
