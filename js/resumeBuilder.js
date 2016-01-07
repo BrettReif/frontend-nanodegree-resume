@@ -18,7 +18,7 @@ This is empty on purpose! Your code to build the resume will go here.
 	"contact" : contact,
 	"picture" : picture,
 	"message" : "Here's a bit about me.",
-	"skills" : skills
+	"skills" : skills.join(", ")
 };
   
  $("#header").prepend(formattedRole);
