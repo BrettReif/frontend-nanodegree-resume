@@ -5,6 +5,20 @@ This is empty on purpose! Your code to build the resume will go here.
  var role = "Technical Product Manager"
  var formattedName = HTMLheaderName.replace("%data%", name);
  var formattedRole = HTMLheaderRole.replace("%data%", role);
+ var contact = {
+ 	"email" : "breifers@gmail.com"
+ 	"phone" : "206-788-5705"
+  }
+ var picture = []
+
+ var bio = {
+	"name" : name,
+	"role" : role,
+	"contact info" : contact,
+	"picture URL" : picture,
+	"welcome message" : "Here's a bit about me."
+}
   
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
+ $("#header").append(bio);
