@@ -8,8 +8,8 @@ This is empty on purpose! Your code to build the resume will go here.
  var contact = {
  	"email" : "breifers@gmail.com"
  	"phone" : "206-788-5705"
-  }
- var picture = []
+  };
+ var picture = [];
 
  var bio = {
 	"name" : name,
