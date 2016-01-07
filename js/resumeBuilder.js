@@ -23,4 +23,6 @@ This is empty on purpose! Your code to build the resume will go here.
   
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
+ $("#header").append(bio.contact);
+ $("#header").append(bio.message);
  $("#header").append(bio.skills);
