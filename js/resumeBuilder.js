@@ -6,8 +6,7 @@ This is empty on purpose! Your code to build the resume will go here.
  var formattedName = HTMLheaderName.replace("%data%", name);
  var formattedRole = HTMLheaderRole.replace("%data%", role);
  var contact = {
- 	"email" : "breifers@gmail.com",
- 	"phone" : "206-788-5705"
+ 	
   };
  var picture = [];
  var skills = ["HTML", "CSS", "SQL", "JavaScript"];
@@ -15,14 +14,16 @@ This is empty on purpose! Your code to build the resume will go here.
  var bio = {
 	"name" : name,
 	"role" : role,
-	"contact" : contact,
-	"picture" : picture,
+	"email" : "breifers@gmail.com",
+ 	"phone" : "206-788-5705",
+ 	"picture" : picture,
 	"message" : "Here's a bit about me.",
 	"skills" : skills.join(", ")
 };
   
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
- $("#header").append(bio.contact);
+ $("#header").append(bio.email);
+ $("#header").append(bio.phone);
  $("#header").append(bio.message);
  $("#header").append(bio.skills);
