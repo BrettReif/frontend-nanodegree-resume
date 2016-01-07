@@ -12,7 +12,7 @@ This is empty on purpose! Your code to build the resume will go here.
 	"role" : role,
 	"email" : "breifers@gmail.com",
  	"phone" : "206-788-5705",
- 	"picture" : [],
+ 	"picture" : "images/me.jpg",
 	"message" : "Here's a bit about me.",
 	"skills" : skills.join(", ")
 };
